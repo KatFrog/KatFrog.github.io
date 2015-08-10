@@ -159,7 +159,7 @@ hr {
   margin-bottom: 30px; }
 
 .container {
-  width: 500px;
+  width: 600px;
   margin: 0 auto; }
 
 @-webkit-keyframes fade-in {
@@ -496,6 +496,21 @@ hr {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
 
+.sidebar {
+  position: absolute;
+  top: 120px;
+  float: left;
+  margin-left: 20px;
+}
+.sidebar .tile {
+  position: static;
+  width: 54px;
+  height: 54px;
+}
+
+.container .clear {
+  clear: both;
+}
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
