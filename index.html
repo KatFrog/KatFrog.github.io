@@ -23,79 +23,95 @@
   <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
 </head>
 <body>
-  <div class="container">
-    <div class="heading">
-      <h1 class="title">Make 2048</h1>
-      <div class="scores-container">
-        <div class="score-container">0</div>
-        <div class="best-container">0</div>
-      </div>
-    </div>
-
-    <div class="above-game">
-      <p class="game-intro">
-      <a class="restart-button">New Game</a>
-      Use the arrow keys to slide tiles. Combine similar tiles to create new ones.</p>
-
-    </div>
-
-    <div class="pre-game">
-      <p class="learn">Each picture brings you one step closer to the people who began it all. ;-)</p>
-    </div>
-
-
-    <div class="game-container">
-      <div class="game-message">
-        <p></p>
-        <div class="lower">
-	        <a class="retry-button">Play Again</a>
-          <div class="score-sharing"></div>
+  <div class="outer">
+    <div class="container clearfix">
+      <div class="heading">
+        <h1 class="title">Patterson Matching Game</h1>
+        <div class="scores-container">
+          <div class="score-container">0</div>
+          <div class="best-container">0</div>
         </div>
       </div>
 
-      <div class="grid-container">
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
+      <div class="above-game">
+        <p class="game-intro">
+        <a class="restart-button">New Game</a>
+        Use the arrow keys to slide tiles. Combine similar tiles to create new ones.</p>
+
+      </div>
+
+      <div class="pre-game">
+        <p class="learn">Each picture brings you one step closer to the people who began it all. ;-)</p>
+      </div>
+
+
+      <div class="game-container">
+        <div class="game-message">
+          <p></p>
+          <div class="lower">
+  	        <a class="retry-button">Play Again</a>
+            <div class="score-sharing"></div>
+          </div>
         </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
+
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
         </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
+
+        <div class="tile-container">
+
         </div>
       </div>
 
-      <div class="tile-container">
-
-      </div>
+          <hr>
+      <p class="game-explanation">
+        <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same value touch, they <strong>merge into one!</strong>
+      </p>
+      <hr>
+      <p>
+      This is a modified version of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">original game</a> created by Gabriele Cirulli.
+      </p>
     </div>
 
 
-        <hr>
-    <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same value touch, they <strong>merge into one!</strong>
-    </p>
-    <hr>
-    <p>
-    This is a modified version of the <a href="http://gabrielecirulli.github.io/2048/" target="_blank">original game</a> created by Gabriele Cirulli.
-    </p>
+    <div class="sidebar">
+      <img class="tile" src="tile-sets/family/2.jpg" /> <br />
+      <img class="tile" src="tile-sets/family/4.jpg" /> <br />
+      <img class="tile" src="tile-sets/family/8.jpg" /><br />
+      <img class="tile" src="tile-sets/family/16.jpg" /><br />
+      <img class="tile" src="tile-sets/family/32.jpg" /><br />
+      <img class="tile" src="tile-sets/family/64.jpg" /><br />
+      <img class="tile" src="tile-sets/family/128.jpg" /> <br />
+      <img class="tile" src="tile-sets/family/256.jpg" /> <br />
+      <img class="tile" src="tile-sets/family/512.jpg" /> <br />
+      <img class="tile" src="tile-sets/family/1024.jpg" /><br />
+      <img class="tile" src="tile-sets/family/2048.jpg" /><br />
+
+    </div>
   </div>
-
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>
